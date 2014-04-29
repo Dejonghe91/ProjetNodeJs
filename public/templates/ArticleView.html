@@ -1,0 +1,28 @@
+<div class="row-fluid">
+    <form class="form-horizontal span12">
+        <fieldset>
+            <div class="row">
+                <div class="span8">
+                    <div class="control-group">
+                        <label for="titre" class="control-label">Titre</label>
+
+                        <div class="controls">
+                            <input type="text" id="titre" name="titre" value="<%= titre %>"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label for="content" class="control-label">Contenu</label>
+                        <div class="controls">
+                            <textarea id="content" name="content" style="width: 90%;" rows="6"><%= content %></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <div class="form-actions">
+            <a href="#" class="btn btn-primary save">Ajouter</a>
+            <a href="#" class="btn btn-primary delete">Supprimer</a>
+        </div>
+    </form>
+</div>

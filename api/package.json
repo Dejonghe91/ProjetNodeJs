@@ -1,0 +1,21 @@
+{
+  "name": "my_blog_api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "make test"
+  },
+  "dependencies": {
+    "express": "3.5.1",
+    "mongoose": "*",
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*",
+    "winston": "*"
+  },
+  "description": "E-Application Project ",
+  "main": "app.js",
+  "author": "Edouard Dejonghe",
+  "license": "ISC"
+}
