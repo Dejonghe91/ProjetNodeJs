@@ -2,7 +2,10 @@ ProjetNodeJs
 ============
 
 Projet Node.js de la matière E-Application du master AIGLE  
-Pour executer le projet, mettre l'adresse du serveur mongodb dans le fichier api/models/models.js, lancer le serveur en entrant dans une console `node api/app.js&`. Le serveur écoute sur le port 3000. Pour lancer tous tests unitaires, entrez dans une console `cd api && make test`
+Pour executer le projet, mettre l'adresse du serveur mongodb dans le fichier api/models/models.js, lancer le serveur en entrant dans une console `node api/app.js&`. Le serveur écoute sur le port 3000. Pour lancer tous tests unitaires, entrez dans une console `cd api && make test`  
+  
+Le code Backbone.js ne fonctionne pas, néanmoins je l'ai ajouté pour la structure du projet.
+
 
 
 Routes de l'API du blog
